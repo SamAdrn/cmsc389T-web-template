@@ -2,83 +2,85 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/scripts.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <header>
 
-    <nav class="same-line">
-        <div class="topnav left">
-            <a href="#home">YOUR NAME</a>
-        </div>
-        <div class="topnav right">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#project">Projects</a>
-            <!-- <a href="#about">About</a> -->
-        </div>
-    </nav>
+  <nav class="same-line">
+    <div class="topnav left">
+      <a href="#home">Samuel Kosasih</a>
+    </div>
+    <div class="topnav right">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#project">Projects</a>
+    </div>
+  </nav>
 </header>
 
 <body>
-    <section id="home">
+  <section id="home">
 
-        <div class="same-line-panel">
-            <img id="image" src=profile.png>
-            <div class="center">
-                <h1>YOUR NAME</h1>
-                <h2>Undergraduate Student</h2>
-                <h3>Majors, Minors</h3>
-            </div>
+    <div class="same-line-panel">
+      <img id="image" src=profile.jpg>
+      <div class="center">
+        <h1>Samuel Kosasih</h1>
+        <h2>Undergraduate Student</h2>
+        <h3>Computer Science Major, Minors</h3>
+      </div>
 
-        </div>
-    </section>
-    <section id="about">
-        <div class="container">
-            <h1 class="section-header">About Me</h1>
-        </div>
-        <div class="same-line-panel reveal">
-            <img id="logo" src=logo.png>
-            <div class="panel">
-                <p>Put your Bio Here</p>
-            </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container">
+      <h1 class="section-header">About Me</h1>
+    </div>
+    <div class="same-line-panel reveal">
+      <img id="logo" src=logo.png>
+      <div class="panel">
+        <p>An enthusiastic Computer Science Student with a passion for inventing software. Currently a Junior at the University of Maryland, College Park, with an interest in Full stack development. Looking for Software Engineering Internships!</p>
+      </div>
 
+    </div>
+  </section>
+  <section id="project">
+    <div class="container">
+      <h1 class="section-header">Projects</h1>
+      <div class="row">
+        <div class="column reveal" style="background-color:#f4845f;">
+          <h2>Revamped Testudo</h2>
+          <p>Revamped Testudo visualizes a newly-designed class schedule system servicing students of the University of Maryland. Its mission is to enhance the experiences that students go through when looking/registering for classes. It runs on an Express server hosted on Render.com. Pages were built with HTML and EJS, designed using Bootstrap mixed with some custom CSS, and powered by Javascript with support of the jQuery library.</p>
+          <a href="https://github.com/SamAdrn/Testudo-Revamp">GitHub Repo</a>
         </div>
-    </section>
-    <section id="project">
-        <div class="container">
-            <h1 class="section-header">Projects</h1>
-            <div class="row">
-                <div class="column reveal" style="background-color:#A4969B;">
-                    <h2>Project 1 Title</h2>
-                    <p>Description of Project 1...</p>
-                </div>
-                <div class="column reveal" style="background-color:#BFB5B9;">
-                    <h2>Project 2 Title</h2>
-                    <p>Description of Project 2...</p>
-                </div>
-                <div class="column reveal" style="background-color:#D1CACD;">
-                    <h2>Project 3 Title</h2>
-                    <p>Description of Project 3...</p>
-                </div>
-            </div>
+        <div class="column reveal" style="background-color:#f79d65;">
+          <h2>Maze</h2>
+          <p>Maze is a little mini-game that runs within the command line. Powered by Ruby, it creates mazes of random textures of any sizes using randomized versions of graph traversal algorithms. For example, when using Randomized Depth-First Search, mazes will consist of long corridors due to its nature of traversing as deep as possible. On the other hand, using Randomized Kruskal's algorithm will create more unique paths as the algorithms always generate a random spanning tree.</p>
+          <a href="https://github.com/SamAdrn/Maze">GitHub Repo</a>
         </div>
-    </section>
+        <div class="column reveal" style="background-color:#f7b267;">
+          <h2>Caraoke</h2>
+          <p>Caraoke is a submission to the Bitcamp 2022 Hackathon hosted at the University of Maryland. The vision of this project is to provide a portable lyrics display machine to fit within the A/C vents of a vehicle. The lyrics would sync with whatever song is playing on your mobile device, making singing along with friends and family on long trips even more fun. For this project, we implemented a connection with Spotify's Developer API, grabbed the lyrics from Textyl.co API, and sent it over to our Arduino Genuino 101 board that handles the text being displayed on the LCD Screen. It was a great team-building and collaboration experience.</p>
+          <a href="https://devpost.com/software/caraoke-lyrics-on-the-go?ref_content=user-portfolio&ref_feature=in_progress">Devpost Link</a>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 <footer>
-    <div class="leftFooter">
-        YOUREMAIL@EMAIL.COM
-    </div>
-    <div class="rightFooter">
-        <a href="https://www.google.com/" class="fa fa-github" style="font-size:36px"></a>
+  <div class="leftFooter">
+    samadrianko@gmail.com
+  </div>
+  <div class="rightFooter">
+    <a href="https://github.com/SamAdrn" class="fa fa-github" style="font-size:36px"></a>
 
-    </div>
-    <div class="rightFooterr">
-        <a href="https://www.google.com/" class="fa fa-linkedin" style="font-size:36px"></a>
+  </div>
+  <div class="rightFooterr">
+    <a href="https://www.linkedin.com/in/samkosasih/" class="fa fa-linkedin" style="font-size:36px"></a>
 
-    </div>
+  </div>
 </footer>
 
 </html>
