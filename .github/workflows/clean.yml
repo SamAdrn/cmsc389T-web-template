@@ -1,4 +1,4 @@
-name: deployment workflow
+name: cleaning workflow
 on:
   workflow_dispatch:
 jobs:
@@ -15,4 +15,5 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             unalias rm
+            cd ../pub
             rm -rf ../pub/cmsc389T-web-template
