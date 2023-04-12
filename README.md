@@ -1,15 +1,19 @@
 # cmsc388T-web-template
 
 ## Color Family
-Light yellow: #FAF8D4
+Light Gray: #dee2e6
 
-Almond: #EBDCCB
+Lighter Gray: #e9ecef
 
-Dun: #C3BAAA
+White: #f8f9fa
 
-Taupe Gray: #91818A
+Dark Orange: #ae2012
 
-Rose quartz: #B2A3B5
+Orange: #f4845f
+
+Light Orange: #f79d65
+
+Lighter Orange: #f7b267
 
 ## CSS
-.img -> where you can adjust image size
+.body {font-family} -> sans-serif
