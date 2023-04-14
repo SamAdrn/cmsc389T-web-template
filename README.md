@@ -1,5 +1,10 @@
 # cmsc388T-web-template
 
+## Links
+Website is live on:
+- [GitHub Pages](https://samadrn.github.io/cmsc389T-web-template/)
+- [TerpConnect](https://terpconnect.umd.edu/~samadrn/cmsc389T-web-template/)
+
 ## Color Family
 Light Gray: #dee2e6
 
